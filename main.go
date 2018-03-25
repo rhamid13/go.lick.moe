@@ -29,7 +29,7 @@ func Paste(w http.ResponseWriter, r *http.Request){
 
 	// string representation of truncated sha256
 	shortsum := hex.EncodeToString(sum[0:4])
-	fmt.Fprint(w, "localhost:8000/p/"+shortsum)
+	fmt.Fprint(w, "lick.moe/p/"+shortsum)
 
 	stmt, _ := db.Prepare("INSERT INTO pastemap(id, paste) values(?,?)")
 	stmt.Exec(shortsum, text)
