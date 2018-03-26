@@ -1,0 +1,55 @@
+h1
+{
+    color: #EEEEEE;
+    font-family: light;
+}
+
+p
+{
+    font-family: light;
+    color: #EEEEEE;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #222222;
+    background-color: #666666;
+    font-size: 200%;
+    color: #EEEEEE;
+    margin-top: 10px;
+    box-shadow: 10px 10px 15px 0 black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+table
+{
+    width: 80%;
+    height: 100%;
+    text-align:center;
+}
+
+textarea
+{
+    background-color: #EEEEEE;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    padding: 20px;
+    box-shadow: 10px 10px 15px 0 black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+@font-face {
+    font-family: light;
+    src: url("light.otf");
+}
