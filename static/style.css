@@ -6,6 +6,13 @@ h1 {
     color: #EEEEEE;
     font-family: light;
 }
+.headingColor1 {
+	color:#FF5F9F;
+}
+
+.headingColor2 {
+	color:#CE9DFF;
+}
 
 p {
     font-family: light;
@@ -47,6 +54,11 @@ textarea {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+}
+
+#mainContent {
+	margin: 0 auto;
+	width:80%;
 }
 
 @font-face {
