@@ -1,67 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
 body {
-    background-color: #222222;
+    background-color: rgb(35,32,32);
+	color: #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100%;
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+header {
+	padding: 4px 0;
+	margin-top: 20px;
 }
 
 h1 {
-    color: #EEEEEE;
-    font-family: light;
+    color: #f2d000;
+	font-size: 3em;
+	text-align:center;
+	margin-bottom: 0;
 }
+
+h2 {
+	color: #f2d000;
+	font-size: 2em;
+	text-align:center;
+	margin-top: 0;
+}
+
 .headingColor1 {
-	color:#FF5F9F;
+	color:#d81b53;
 }
 
 .headingColor2 {
-	color:#CE9DFF;
-}
-
-p {
-    font-family: light;
-    color: #EEEEEE;
-    padding-top: 10px;
-    font-size: 13px;
-}
-
-input {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #222222;
-    background-color: #666666;
-    font-size: 200%;
-    color: #EEEEEE;
-    margin-top: 10px;
-    box-shadow: 10px 10px 15px 0 black;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-
-table {
-    width: 80%;
-    height: 100%;
-    text-align:center;
+	color:#601c9f;
 }
 
 textarea {
-    background-color: #EEEEEE;
-    font-size: 15px;
-    height: 100%;
+    background-color: #323232;
+	font-size: 1.1em;
+	color: #FFF;
+    height: 45%;
     width: 100%;
     resize: none;
-    outline: none;
     border: none;
     padding: 20px;
-    box-shadow: 10px 10px 15px 0 black;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
 
-#mainContent {
-	margin: 0 auto;
-	width:80%;
+textarea:focus, input:focus {
+	outline-color: #d81b53;
 }
 
-@font-face {
-    font-family: light;
-    src: url("light.otf");
+input[type="submit"] {
+    width: 100%;
+    height: 55px;
+	border:2px solid #323232;
+    background-color: #232020;
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: #EEEEEE;
+    margin-top: 0px;
+	transition: background 150ms ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: rgb(216,27,83);
+	border:none;
+	cursor:pointer;
+}
+
+::-webkit-input-placeholder {
+	color:#000;
+}
+
+.disclaimer {
+	text-align:center;
+}
+
+@media screen and (max-width: 961px){
+
+	textarea {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 641px){
+	
+	body {
+		width: 85%;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 481px){
+	h1 {
+		font-size: 2em;
+	}
+	
+}
+
+@media screen and (max-width: 320px){
+	body {
+		width: 96%;
+	}
+	
+	header {
+		margin-top: 0;
+	}
+	
 }

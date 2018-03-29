@@ -6,29 +6,14 @@
   </head>
   <body>
     <form action="/paste" method="POST"/>
-    <section id="mainContent">
-      <table>
-	<tr>
-	  <td>
-	    <h1><span class="headingColor1">lick</span>.<span class="headingColor2">moe</span>: pastebin with less bullshit.</h1>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <textarea name="paste" maxlength="50000" placeholder="paste your shit here..."></textarea>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <input type="submit" value="click to lick"></input>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <p>All paste contents are the responsibility of the uploader.</p>
-	  </td>
-	</tr>
-      </table>
-    </section>
+		<header>
+			<h1><span class="headingColor1">lick</span>.<span class="headingColor2">moe</span>:</h1>
+			<h2>pastebin with less bullshit.</h2>
+		</header>
+		<article>
+			<textarea name="paste" maxlength="50000" placeholder="paste your shit here..."></textarea>
+			<input type="submit" value="click to lick"></input>
+			<p class="disclaimer">All paste contents are the responsibility of the uploader.</p>
+		</article>
   </body>
 </html>
